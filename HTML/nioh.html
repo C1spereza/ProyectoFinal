@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Hyperion</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="icon" type="image/png" href="../IMG/hyperion1.png">
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+<body>
+	
+
+	<header>
+		<div id="container2">
+			<input id="menu_trigger" type="checkbox" />
+  			<label for="menu_trigger">
+  				<div class="icon">
+			      <div class="bar first"></div>
+			      <div class="bar second"></div>
+			      <div class="bar third"></div>
+			    </div>
+			  </label>
+			<div class="menu">
+			    <label for="menu_trigger">
+			      <div class="bar first"></div>
+			      <div class="bar second"></div> 
+			    </label>
+			    <ul>
+			      <a href="principal.html"><li class="mn">Inicio</li></a>
+			      <a href="juegos.html"><li class="mn">Juegos</li></a>
+			      <a href="salas.html"><li class="mn">Salas</li></a>
+			      <a href="amigos.html"><li class="mn">Amigos</li></a>
+			    </ul>
+			</div>
+			<a href="principal.html"><img id="logo" src="../IMG/hyperion1.png"></a>
+			<h1 id="titulopagina">Hyperion</h1>
+			<div id="search"><input id="search" type="text" name="search" placeholder="Buscar..."></div>
+			<nav id="navegador">
+				<ul>
+					<a href="juegos.html"><li><div class="lista">Juegos</div></li></a>
+					<a href="salas.html"><li><div class="lista">Salas</div></li></a>
+					<a href="amigos.html"><li><div class="lista">Amigos</div></li></a>
+				</ul>
+			</nav>
+			<div><a href="perfil.html"><img id="profile" src="../IMG/profile.jpg"></a></div>
+			<div><h4 id="language">ES</h4><img id="triangleimg" src="../IMG/triangle.png"></div>
+		</div>
+	</header>
+
+	<div id="bigcontainer">
+		<div id="contgame">
+			<div id="imggame">
+				<img id="gamecover" src="../IMG/nioh.jpg">
+				<h3 style="text-align: center;">Recomendado:</h3>
+				<div id="recommendbuttons">
+					<input type="button" class="recommend" name="si" value="Si">
+					<input type="button" class="recommend" name="no" value="No">
+				</div>
+			</div>
+			<div id="infogame">
+				<div id="part1game">
+					<div id="namegame"><h1>Nioh</h1></div>
+					<div id="timegame"><h2>Fecha Inicio: XX/XX/XXXX</h2></div>
+				</div>
+				<div id="part2game">
+					<div id="namegame"><h3>Lanzamiento: XX/XX/XXXX</h3></div>
+					<div id="timegame"><h2>Fecha Finalización: XX/XX/XXXX</h2></div>
+				</div>
+				<div id="part2game">
+					<div id="namegame"><h3>Puntuación: 4/5 *</h3></div>
+				</div>
+				<div id="part3game">
+					<input type="button" class="roombutton" name="crearsala" value="Crear Sala">
+					<input type="button" class="roombutton" name="versala" value="Ver Salas" onclick="window.location='salasjuego.html';">
+				</div>
+				<div id="part4game">
+					<textarea width="100%" cols="80" rows="10" placeholder="Escribir reseña..."></textarea>
+				</div>
+				<div id="part4game">
+					<input type="button" class="roombutton" name="versala" value="Publicar">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
